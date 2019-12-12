@@ -45,6 +45,7 @@ export const WwwIndependentCoUkExtractor = {
       'figure.i-gallery',
       'aside',
       'figure.video',
+      'div.signup-comp',
     ],
   },
 };
