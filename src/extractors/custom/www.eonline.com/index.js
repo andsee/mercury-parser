@@ -14,7 +14,10 @@ export const WwwEonlineComExtractor = {
   },
 
   lead_image_url: {
-    selectors: [['meta[name="og:image"]', 'value']],
+    selectors: [
+      ['meta[name="og:image"]', 'value'],
+      ['meta[property="og:image"]', 'content'],
+    ],
   },
 
   content: {
